@@ -44,5 +44,5 @@ Detail a number of key components.
 * Ensure your components are responsive and designed with mobile first breakpoints.
 
 ###Example:
-* Buttons 
-* List Elements - Suggested
+* Cards
+* Containers
