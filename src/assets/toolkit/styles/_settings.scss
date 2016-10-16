@@ -58,7 +58,6 @@ $foundation-palette: (
 );
 $primary:        map-get($foundation-palette, primary);
 $secondary:      map-get($foundation-palette, secondary);
-$secondary-light:map-get($foundation-palette, secondary-light);
 $success:        map-get($foundation-palette, success);
 $alert:          map-get($foundation-palette, alert);
 $warning:        map-get($foundation-palette, warning);
@@ -98,7 +97,10 @@ $colors: (
   warning:      $warning,
   black:        $black,
   white:        $white,
-  teal:         $teal
+  light-gray:   $light-gray,
+  medium-gray:  $medium-gray,
+  dark-gray:    $dark-gray,
+  teal:         $teal,
 );
 
 // 2. Breakpoints

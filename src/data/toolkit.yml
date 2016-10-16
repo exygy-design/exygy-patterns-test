@@ -2,10 +2,13 @@ bgcolors:
   specturm:  
     - primary
     - secondary
-    - attention
     - alert
     - success
-    - warn
+    - warning
+    - light-gray
+    - medium-gray
+    - dark-gray
+    - black
 button:
   colors:
     secondary: secondary
