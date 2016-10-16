@@ -52,14 +52,14 @@
 @include foundation-tooltip;
 @include foundation-top-bar;
 
-// Layout-related sections
-@import
-  'layout/footer';
-
 // Components
 @import
   'components/button',
   'components/icon',
-  'components/card',
-  'components/hero',
-  'components/login';
+  'components/card';
+
+// Structures
+@import
+  'structures/footer',
+  'structures/hero',
+  'structures/login';
