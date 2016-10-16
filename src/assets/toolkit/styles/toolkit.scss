@@ -1,8 +1,5 @@
 @charset 'UTF-8';
 
-// Fonts
-// @import '../fonts/fonts';
-
 // Configuration and helpers
 @import
   'settings',
@@ -52,14 +49,17 @@
 @include foundation-tooltip;
 @include foundation-top-bar;
 
-// Components
+// Atoms
 @import
-  'components/button',
-  'components/icon',
-  'components/card';
+  'atoms/button',
+  'atoms/icon';
 
-// Structures
+// Molecules
 @import
-  'structures/footer',
-  'structures/hero',
-  'structures/login';
+  'molecules/card';
+
+// Organisms
+@import
+  'organisms/footer',
+  'organisms/hero',
+  'organisms/login';

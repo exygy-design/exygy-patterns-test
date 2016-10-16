@@ -1,31 +1,9 @@
+//
+// Mixins
+//
+
+// Hide from screen-readers
 @mixin sr-only() {
   position: absolute;
   left: -999em;
 }
-
-// Font Icons
-// @mixin icon-size( $size ){
-//   font-size: map-get( $icon-sizes, $size );
-// }
-
-// @mixin icomoon-icon( $icon:false, $size:false ) {
-//   /* use !important to prevent issues with browser extensions that change fonts */
-//   font-family: 'icomoon' !important;
-//   speak: none;
-//   font-style: normal;
-//   font-weight: normal;
-//   font-variant: normal;
-//   text-transform: none;
-//   line-height: 1;
-
-//   /* Better Font Rendering =========== */
-//   -webkit-font-smoothing: antialiased;
-//   -moz-osx-font-smoothing: grayscale;
-
-//   @if $size {
-//     @include icon-size( $size );
-//   }
-//   @if $icon {
-//     content: $icon;
-//   }
-// }

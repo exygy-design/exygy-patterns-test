@@ -23,6 +23,8 @@ button:
     Expanded: expanded
 icons:
   symbols:
+    - more-vert
+    - file-word
     - pill
     - saved
     - add

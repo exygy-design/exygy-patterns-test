@@ -1,0 +1,12 @@
+// Login
+
+$form-border-color: #cacaca;
+$form-padding: 1rem;
+$form-radius: 3px;
+
+.log-in-form {
+  background-color: #fff;
+  border: 1px solid $form-border-color;
+  padding: $form-padding;
+  border-radius: $form-radius;
+}
