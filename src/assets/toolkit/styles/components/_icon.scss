@@ -6,6 +6,9 @@
   width: rem-calc(16);
   height: rem-calc(16);
   vertical-align: middle;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 
   svg {
     width: 100%;
@@ -14,7 +17,7 @@
   }
 
   use {
-    fill: black;
+    // fill: black;
   }
 
   &.i-tiny {
@@ -42,16 +45,3 @@
     height: rem-calc(32);
   }
 }
-
-// Font Icons (optional)
-// .icon {
-
-// }
-
-// @each $icon-name, $icon-size in $icon-sizes {
-//   &.icon {
-//     &-#{"" + $icon-name} {
-//       font-size: $icon-size;
-//     }
-//   }
-// }
