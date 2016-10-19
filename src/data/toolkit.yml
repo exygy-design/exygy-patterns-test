@@ -23,6 +23,7 @@ button:
     Expanded: expanded
 icons:
   symbols:
+    - ls-logo
     - more-vert
     - file-word
     - pill

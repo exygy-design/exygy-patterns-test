@@ -89,6 +89,7 @@ $global-weight-bold: $font-weight-bold;
 
 @include add-foundation-colors;
 
+// Add colors for color utility including SVG fill
 $colors: (
   primary:      $primary,
   secondary:    $secondary,
