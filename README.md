@@ -22,20 +22,20 @@ npm install gulp-sass
 $ npm start
 ```
 
-##Interface Inventory
+## Interface Inventory
 
 Using the starter framework and visual comps conduct an Interface Inventory and identify all the major components across the screens. 
 * Categorize and name each component meaningfully. 
 * How would you present your findings to the team?
 
 
-##Sass Architecture
+## Sass Architecture
 
 Draft a modular sass architecture using folders and nested scss files based on your interface inventory. 
 * How would you organize all of these files in a meaningful way in order to find stuff later when you and other developers come back to the code?
 
 
-##Component Design
+## Component Design
 
 Detail a number of key components. 
 * Give attention to the naming conventions of each component, its variants, modifiers and states.
@@ -43,6 +43,6 @@ Detail a number of key components.
 * Also outline the styles for any descendent elements as needed. 
 * Ensure your components are responsive and designed with mobile first breakpoints.
 
-###Example:
+### Example:
 * Cards
 * Containers
